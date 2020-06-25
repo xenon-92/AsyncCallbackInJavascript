@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Will alert only</h1>
+        <button class="alert">Alert me</button>
+    </div>
+    <div>
+        <h1>Blocking code</h1>
+        <h1 class="block-counter"></h1>
+        <h1 class="block-piValue"></h1>
+        <button class="blocking">Block button</button>
+    </div>
+    <div>
+        <h1>Non Blocking code via setTimeout</h1>
+        <h1 class="nonblock-counter-timeout"></h1>
+        <h1 class="nonblock-piValue-timeout"></h1>
+        <button class="non-blocking-timeout">Button setTimeout</button>
+    </div>
+    <div>
+        <h1>Non Blocking code via postmessage</h1>
+        <h1 class="nonblock-counter-postmessage"></h1>
+        <h1 class="nonblock-piValue-postmessage"></h1>
+        <button class="non-blocking-postmessage">Button postmessage</button>
+    </div>
+    <div>
+        <h1>Non Blocking code via Generator function</h1>
+        <h1 class="nonblock-counter-generator"></h1>
+        <h1 class="nonblock-piValue-generator"></h1>
+        <button class="non-blocking-generator">Button Generator function</button>
+    </div>
+</body>
+</html>
