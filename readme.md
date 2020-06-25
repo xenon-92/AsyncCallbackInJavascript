@@ -3,7 +3,7 @@ Converting a blocking code into a non blocking. This is done by using setTimeout
 
 # Problem: Find the value of Pi upto 10000000000 iteration
 
-# Solution 0: Blocking code completely freezes the UI thread of execution
+# Solution 0: Blocking code, completely freezes the UI thread of execution
 
 
 
